@@ -10,4 +10,15 @@
 html {
   background-color: var(--background-color);
   color: var(--font-color);
+  height: 100%;
+}
+
+
+h1,
+h5 {
+  font-weight: normal;
+}
+
+body {
+  min-height: calc(100vh - 8px);
 }
