@@ -1,5 +1,5 @@
 .dropWrapper {
-  background-color: #979797;
+  background-color: #303030;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -13,9 +13,9 @@
 
 
 .dropContainer {
-  background-color: #555555;
+  background-color: #404040;
   border-radius: 10px;
-  border: 2px dashed #97bef4;
+  border: 2px dashed #4291ff;
   display: flex;
   justify-content: center;
   align-items: center;

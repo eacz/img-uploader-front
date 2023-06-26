@@ -1,4 +1,3 @@
-'use client'
 import { imageApi } from '@/api/imageApi'
 import Image from 'next/image'
 import React, { useState } from 'react'
