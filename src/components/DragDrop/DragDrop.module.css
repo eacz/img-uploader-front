@@ -8,9 +8,7 @@
   width: 100%;
   max-width: 400px;
   padding: 3rem 0;
-
 }
-
 
 .dropContainer {
   background-color: #404040;
@@ -27,6 +25,8 @@
 }
 
 .dropImage {
+  max-width: 350px;
+  width: 100%;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -35,10 +35,26 @@
 .dropText {
 }
 
+.dropButtonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem
+}
+
 .dropButton {
+  cursor: pointer;
   background-color: #2f80ed;
   border: none;
   border-radius: 5px;
   color: var(--font-color);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.dropTextButton {
+  cursor: pointer;
+  color: #2f80ed;
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
 }
