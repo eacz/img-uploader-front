@@ -1,0 +1,29 @@
+.ClipboardContainer {
+  max-width: 350px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  
+}
+
+.ClipboardTextContainer {
+  width: 100%;
+  grid-column: 1/4;
+  padding: .5rem .2rem;
+  border-radius: 5px;
+  color: var(--font-color);
+  text-overflow: ellipsis;
+}
+
+.ClipboardCopyButton {
+  width: 100%;
+  cursor: pointer;
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 5px;
+  color: var(--font-color);
+  padding: 0.5rem 1rem;
+}

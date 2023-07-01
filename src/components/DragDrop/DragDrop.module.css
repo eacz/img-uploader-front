@@ -31,6 +31,7 @@
   -webkit-user-select: none;
   user-select: none;
   pointer-events: none;
+  margin-bottom: 1rem;
 }
 .dropText {
 }

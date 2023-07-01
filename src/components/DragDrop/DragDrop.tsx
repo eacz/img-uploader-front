@@ -5,6 +5,7 @@ import Dropzone from 'react-dropzone'
 import imageDefault from '../../../public/image.svg'
 import styles from './DragDrop.module.css'
 import { fileToUrl } from '@/utils'
+import Clipboard from '../Clipboard/Clipboard'
 
 interface Props {
   setLoading: Dispatch<SetStateAction<boolean>>
@@ -52,7 +53,7 @@ export const DragDrop = ({ setLoading, imageUploadedUrl, setImageUploadedUrl }: 
             <>
               {/*eslint-disable-next-line @next/next/no-img-element*/}
               <img className={styles.dropImage} src={imageUploadedUrl} alt='' />
-              <p>{imageUploadedUrl}</p>
+              <Clipboard text={imageUploadedUrl} />
             </>
           ) : (
             <div className={styles.dropButtonContainer}>
