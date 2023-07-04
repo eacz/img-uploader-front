@@ -6,13 +6,12 @@
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  
 }
 
 .ClipboardTextContainer {
   width: 100%;
   grid-column: 1/4;
-  padding: .5rem .2rem;
+  padding: 0.5rem 0.2rem;
   border-radius: 5px;
   color: var(--font-color);
   text-overflow: ellipsis;
@@ -26,4 +25,15 @@
   border-radius: 5px;
   color: var(--font-color);
   padding: 0.5rem 1rem;
+  transition: background 0.8s;
+  background-position: center;
+}
+
+.ClipboardCopyButton:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.ClipboardCopyButton:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
 }
